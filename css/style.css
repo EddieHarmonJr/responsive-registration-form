@@ -11,6 +11,10 @@ h1 {
 input:focus, textarea:focus {
   outline: 3px solid #09f;
 }
+button {
+  color: white;
+  background-color: #39add1;
+}
 
 
 
