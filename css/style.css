@@ -8,6 +8,9 @@ h1 {
   color: white;
   background-color: black;
 }
+input, textarea {
+  background-color: whitesmoke;
+}
 input:focus, textarea:focus {
   outline: 3px solid #09f;
 }
