@@ -44,6 +44,8 @@ input:focus, textarea:focus {
 button {
   color: white;
   background-color: #39add1;
+  height: 50px;
+  width: 210px;
 }
 
 
