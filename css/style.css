@@ -20,6 +20,7 @@ input {
 }
 select {
   height: 50px;
+  width: 210px;
 }
 textarea {
   height: 100px;
