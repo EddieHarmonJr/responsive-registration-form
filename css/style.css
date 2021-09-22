@@ -8,6 +8,9 @@ h1 {
   color: white;
   background-color: black;
 }
+.contact-labels {
+  font-weight: 100;
+}
 input {
   height: 50px;
   
