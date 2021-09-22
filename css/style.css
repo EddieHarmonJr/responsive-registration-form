@@ -11,6 +11,10 @@ h1 {
 input {
   height: 50px;
   border: none;
+  
+}
+textarea {
+  border: none;
 }
 input, textarea {
   background-color: whitesmoke;
