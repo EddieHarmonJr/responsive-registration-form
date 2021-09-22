@@ -18,6 +18,9 @@ p, h2 {
   margin-top: 15px;
   margin-bottom: 10px;
 }
+.newsletter-labels {
+  margin-left: 10px;
+}
 ::placeholder {
   text-align: right;
   padding-right: 15px;
