@@ -10,6 +10,7 @@ h1 {
 }
 .contact-labels {
   font-weight: 100;
+  display: block;
 }
 input {
   height: 50px;
