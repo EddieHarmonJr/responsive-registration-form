@@ -22,7 +22,7 @@ textarea {
   height: 100px;
 
 }
-input, textarea {
+input, select, textarea {
   background-color: whitesmoke;
   border: none;
   border-radius: 5px;
