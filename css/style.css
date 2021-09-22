@@ -5,8 +5,12 @@ body {
   font-family: 'Merriweather', serif;
 }
 h1 {
+  text-align: center;
   color: white;
   background-color: black;
+}
+p, h2 {
+  text-align: center;
 }
 .contact-labels {
   font-weight: 100;
@@ -21,7 +25,6 @@ h1 {
 }
 input {
   height: 50px;
-  
 }
 select {
   height: 50px;
