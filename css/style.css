@@ -10,14 +10,16 @@ h1 {
 }
 input {
   height: 50px;
-  border: none;
   
 }
 textarea {
-  border: none;
+  height: 100px;
+
 }
 input, textarea {
   background-color: whitesmoke;
+  border: none;
+  border-radius: 5px;
 }
 input:focus, textarea:focus {
   outline: 3px solid #09f;
