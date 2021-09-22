@@ -18,9 +18,11 @@ input {
   height: 50px;
   
 }
+select {
+  height: 50px;
+}
 textarea {
   height: 100px;
-
 }
 input, select, textarea {
   background-color: whitesmoke;
