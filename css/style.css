@@ -99,7 +99,14 @@ p:last-child {
   color: darkgray;
 }
 
+.contact-info {
+  margin-bottom: 50px;
+}
 
+legend {
+  font-weight: bold;
+  font-size: 1.25em;
+}
 
 
 
