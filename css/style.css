@@ -88,7 +88,7 @@ button {
   color: white;
   background-color: rgb(8, 104, 94);
   height: 50px;
-  width: 210px;
+  width: 325px;
   margin-top: 20px;
 }
 
@@ -100,7 +100,7 @@ p:last-child {
 }
 
 .contact-info {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 legend {
