@@ -48,21 +48,17 @@ select {
 }
 textarea {
   height: 100px;
+  width: 325px;
 }
 input, select, textarea {
   background-color: whitesmoke;
   border: none;
   border-radius: 5px;
 }
-/* TARGETS CONTACT INFO FIELDS SPECIFICALLY */
-fieldset input, select{
+/* MAKES ALL THE FIELDS IN THE CONTACT INFO SECTION WIDER (EXCEPT ZIP CODE) */
+.contact-info input, .contact-info select{
   width: 325px;
 }
-
-/* UNSURE WHY THIS IS NOT WORKING? */
-/* input:not([type="radio"]) {
-  border-color: red;
-} */
 #zip {
   width: 200px;
 }
