@@ -5,7 +5,7 @@ body {
   font-family: 'Merriweather', serif;
 }
 .container {
-  width: 90%;
+  width: 100%;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -22,6 +22,14 @@ p:first-child {
   font-size: 1.25em;
   font-weight: bold;
 }
+.third-paragraph {
+  font-weight: lighter;
+  color: darkgray;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: solid 5px black;
+  /* border-width: 90%; */
+}
 p, h2 {
   text-align: center;
 }
@@ -30,7 +38,7 @@ p, h2 {
   flex-direction: column;
 }
 .contact-labels {
-  font-weight: 100;
+  font-weight: lighter;
   display: block;
   margin-top: 15px;
   margin-bottom: 10px;
@@ -113,11 +121,10 @@ legend {
 
 
 
-
-
-
-
-
-
-
 /* MEDIA QUERIES */
+
+/* DESKTOP */
+
+/* @media screen and (min-width: 768px) {
+  
+} */
