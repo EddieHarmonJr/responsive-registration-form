@@ -61,6 +61,7 @@ input, select, textarea {
 }
 #zip {
   width: 200px;
+  margin-bottom: 25px;
 }
 
 input:focus, textarea:focus {
