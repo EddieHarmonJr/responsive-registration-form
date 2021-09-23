@@ -86,10 +86,17 @@ input:focus, textarea:focus {
 }
 button {
   color: white;
-  background-color: #39add1;
+  background-color: rgb(8, 104, 94);
   height: 50px;
   width: 210px;
   margin-top: 20px;
+}
+
+p:last-child {
+  font-size: .85em;
+  font-weight: lighter;
+  font-style: italic;
+  color: darkgray;
 }
 
 
