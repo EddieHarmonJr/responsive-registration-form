@@ -103,11 +103,13 @@ input:focus, textarea:focus {
 }
 button {
   color: white;
-  background-color: rgb(8, 104, 94);
+  background-color: rgb(8, 104, 88);
   height: 50px;
   width: 325px;
   margin-top: 20px;
   border-radius: 5px;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 p:last-child {
@@ -116,11 +118,9 @@ p:last-child {
   font-style: italic;
   color: darkgray;
 }
-
 .contact-info {
   margin-bottom: 25px;
 }
-
 legend {
   font-weight: bold;
   font-size: 1.25em;
