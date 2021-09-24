@@ -44,7 +44,8 @@ p, h2 {
 }
 .contact-info {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
+
 }
 .contact-labels {
   font-weight: lighter;
@@ -91,8 +92,7 @@ input, select, textarea {
 .newsletter-info {
 display: flex;
 flex-direction: column;
-/* GIVES NEWSLETTER SECTION OF THE FORM A LIGHT CAROLINA BLUE COLOR */
-background-color: rgba(75, 156, 211, 0.2);
+background-color: rgba(75, 156, 211, 0.2); /* GIVES NEWSLETTER SECTION OF THE FORM A LIGHT CAROLINA BLUE COLOR */
 }
 
 
@@ -134,7 +134,10 @@ legend {
 }
 
 
+/* input[type="checkbox"],
+input[type="radio"] {
 
+} */
 
 
 /* MEDIA QUERIES */
