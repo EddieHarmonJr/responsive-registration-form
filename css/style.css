@@ -91,6 +91,8 @@ input, select, textarea {
 .newsletter-info {
 display: flex;
 flex-direction: column;
+/* GIVES NEWSLETTER SECTION OF THE FORM A LIGHT CAROLINA BLUE COLOR */
+background-color: rgba(75, 156, 211, 0.2);
 }
 
 
