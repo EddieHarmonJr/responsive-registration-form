@@ -43,6 +43,9 @@ p,
 h2 {
   text-align: center;
 }
+fieldset {
+  border: none;
+}
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -93,12 +96,7 @@ textarea {
 .newsletter-info {
   display: flex;
   flex-direction: column;
-  background-color: rgba(
-    75,
-    156,
-    211,
-    0.2
-  ); /* GIVES NEWSLETTER SECTION OF THE FORM A LIGHT CAROLINA BLUE COLOR */
+  background-color: rgba(75,156,211,0.2); /* GIVES NEWSLETTER SECTION OF THE FORM A LIGHT CAROLINA BLUE COLOR */
 }
 
 /* #html_news, #css_news, #javascript_news, .newsletter-labels {
@@ -138,6 +136,7 @@ p:last-child {
 legend {
   font-weight: bold;
   font-size: 1.25em;
+  /* display: none; */
 }
 
 input[type="checkbox"],
