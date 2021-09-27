@@ -4,11 +4,16 @@
 body {
   font-family: "Merriweather", serif;
 }
+/* body p:first-child {
+  border:  2px solid yellow;
+
+} */
 .container {
-  width: 100%;
+  width: 90%;
   margin-left: 5%;
   margin-right: 5%;
 }
+
 p:first-child {
   padding: 25px;
   margin-top: 0;
@@ -17,10 +22,12 @@ p:first-child {
   font-weight: bold;
   color: white;
   background-color: black;
+  /* border:  2px solid red; */
 }
 .second-paragraph {
   font-size: 1.25em;
   font-weight: bold;
+  background-color: white;
 }
 .third-paragraph {
   font-weight: lighter;
