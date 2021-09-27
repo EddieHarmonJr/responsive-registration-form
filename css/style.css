@@ -26,8 +26,8 @@ p:first-child {
   font-weight: lighter;
   color: darkgray;
   padding-bottom: 50px;
-  margin-bottom: 50px;
-  border-bottom: solid 5px black;
+  margin-bottom: 3px;
+  border-bottom: solid 6px black;
 }
 /* .third-paragraph::after {
   content: "";
@@ -43,6 +43,10 @@ p,
 h2 {
   text-align: center;
 }
+form {
+  padding-top: 25px;
+  border-top: 3px solid black;
+}
 fieldset {
   border: none;
 }
@@ -50,6 +54,8 @@ fieldset {
   display: flex;
   flex-direction: column;
   border-bottom: 3px solid black;
+  /* margin-left: 25px;
+  margin-right: 25px; */
 }
 .contact-labels {
   font-weight: lighter;
