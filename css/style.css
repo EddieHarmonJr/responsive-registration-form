@@ -139,10 +139,11 @@ legend {
   font-size: 1.25em;
 }
 
-/* input[type="checkbox"],
+input[type="checkbox"],
 input[type="radio"] {
-
-} */
+  height: 15px;
+  margin-right: 15px;
+}
 
 /* MEDIA QUERIES */
 
