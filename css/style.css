@@ -49,6 +49,7 @@ fieldset {
 .contact-info {
   display: flex;
   flex-direction: column;
+  border-bottom: 3px solid black;
 }
 .contact-labels {
   font-weight: lighter;
