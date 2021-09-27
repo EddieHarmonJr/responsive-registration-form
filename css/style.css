@@ -169,6 +169,9 @@ input[type="radio"] {
   margin-right: 15px;
 }
 
+.newsletter-info legend:first-child {
+  margin-bottom: 20px;
+}
 
 /* MEDIA QUERIES */
 
