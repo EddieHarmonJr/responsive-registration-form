@@ -4,10 +4,7 @@
 body {
   font-family: "Merriweather", serif;
 }
-/* body p:first-child {
-  border:  2px solid yellow;
 
-} */
 .container {
   width: 90%;
   margin-left: 5%;
@@ -22,8 +19,8 @@ p:first-child {
   font-weight: bold;
   color: white;
   background-color: black;
-  /* border:  2px solid red; */
 }
+
 .second-paragraph {
   padding: 0;
   margin-bottom: 0;
@@ -39,16 +36,7 @@ p:first-child {
   margin-bottom: 3px;
   border-bottom: solid 6px black;
 }
-/* .third-paragraph::after {
-  content: "";
-  display: block;
-  height: 24px;
-  width: 24px;
-  border-radius: 50%;
-  background: coral;
-  margin: 0 10px;
-  border: 4px solid black;
-} */
+
 p,
 h2 {
   text-align: center;
@@ -64,42 +52,49 @@ form {
   padding-top: 25px;
   border-top: 3px solid black;
 }
+
 fieldset {
   border: none;
 }
+
 .contact-info {
   display: flex;
   flex-direction: column;
   border-bottom: 3px solid black;
-  /* margin-left: 25px;
-  margin-right: 25px; */
 }
+
 .contact-labels {
   font-weight: lighter;
   display: block;
   margin-top: 15px;
   margin-bottom: 10px;
 }
+
 .newsletter-labels {
   margin-left: 10px;
 }
+
 ::placeholder {
   text-align: right;
   padding-right: 15px;
   color: lightgray;
 }
+
 input {
   height: 50px;
 }
+
 select {
   height: 50px;
   width: 210px;
 }
+
 textarea {
   height: 100px;
   width: 325px;
   margin-top: 20px;
 }
+
 input,
 select,
 textarea {
@@ -113,26 +108,26 @@ textarea {
 .contact-info select {
   width: 325px;
 }
+
 #zip {
   width: 200px;
   margin-bottom: 25px;
 }
+
 .newsletter-info {
   display: flex;
   flex-direction: column;
-  background-color: rgba(75,156,211,0.2); /* GIVES NEWSLETTER SECTION OF THE FORM A LIGHT CAROLINA BLUE COLOR */
+  background-color: rgba(
+    75,
+    156,
+    211,
+    0.2
+  ); /* GIVES NEWSLETTER SECTION OF THE FORM A LIGHT CAROLINA BLUE COLOR */
 }
 
 .newsletter-info legend:first-child {
   margin-bottom: 20px;
 }
-
-/* #html_news, #css_news, #javascript_news, .newsletter-labels {
-  display: inline-block;
-} */
-/* .newsletter-info input {
-  border: solid;
-}  */
 
 /* Adds a border color and a background color that fades in and out to these fields when in focus  */
 input:focus,
@@ -140,6 +135,7 @@ textarea:focus {
   outline: 3px solid #09f;
   background-color: lavenderblush;
 }
+
 button {
   color: white;
   background-color: rgb(8, 104, 88);
@@ -148,8 +144,6 @@ button {
   margin-top: 20px;
   border-radius: 5px;
   margin-left: 15px;
-  /* justify-content: center;
-  align-items: center; */
 }
 
 p:last-child {
@@ -159,13 +153,14 @@ p:last-child {
   color: darkgray;
   margin-top: 25px;
 }
+
 .contact-info {
   margin-bottom: 25px;
 }
+
 legend {
   font-weight: bold;
   font-size: 1.25em;
-  /* display: none; */
 }
 
 input[type="checkbox"],
@@ -173,8 +168,6 @@ input[type="radio"] {
   height: 15px;
   margin-right: 15px;
 }
-
-
 
 /* MEDIA QUERIES */
 
