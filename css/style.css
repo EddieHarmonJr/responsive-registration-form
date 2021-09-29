@@ -175,6 +175,10 @@ input[type="radio"] {
 
 @media screen and (min-width: 768px) {
 
+  .contact-info {
+    padding-bottom: 75px;
+  }
+
 .contact-labels {
   /* border: solid red; */
   width: 130px;
@@ -194,7 +198,7 @@ input[type="radio"] {
 
 .contact-info input,
 .contact-info select {
-  width: 420%;  /*OR 525px*/
+  width: 525px;  /*OR 420%*/
   margin-left: 150px;
   /* border: solid green; */
   
