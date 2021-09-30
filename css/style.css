@@ -176,10 +176,12 @@ input[type="radio"] {
 
 @media screen and (min-width: 768px) {
 
-  .labels_inputs {
+  /* .labels_inputs {
     display: flex;
     flex-direction: row;
-  }
+    flex-flow: row nowrap;
+    align-items: center;
+  } */
 
   .contact-info {
     padding-bottom: 75px;
