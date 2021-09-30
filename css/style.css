@@ -170,11 +170,16 @@ input[type="radio"] {
   margin-right: 15px;
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES -------------------------------------------------------------- */
 
 /* DESKTOP */
 
 @media screen and (min-width: 768px) {
+
+  .labels_inputs {
+    display: flex;
+    flex-direction: row;
+  }
 
   .contact-info {
     padding-bottom: 75px;
