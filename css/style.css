@@ -176,15 +176,15 @@ input[type="radio"] {
 
 @media screen and (min-width: 768px) {
 
-  /* .labels_inputs {
+  .labels_inputs {
     display: flex;
     flex-direction: row;
     flex-flow: row nowrap;
     align-items: center;
-  } */
+  }
 
   .contact-info {
-    padding-bottom: 75px;
+    padding-bottom: 50px;
   }
 
 .contact-labels {
@@ -207,8 +207,7 @@ input[type="radio"] {
 .contact-info input,
 .contact-info select {
   width: 525px;  /*OR 420%*/
-  margin-left: 150px;
-  /* border: solid green; */
+  margin-left: 25px;
   
 }
   
