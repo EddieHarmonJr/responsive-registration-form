@@ -118,12 +118,7 @@ textarea {
 .newsletter-info {
   display: flex;
   flex-direction: column;
-  background-color: rgba(
-    75,
-    156,
-    211,
-    0.2
-  ); /* GIVES NEWSLETTER SECTION OF THE FORM A LIGHT CAROLINA BLUE COLOR */
+  background-color: rgba(75,156,211,0.2); /* GIVES NEWSLETTER SECTION OF THE FORM A LIGHT CAROLINA BLUE COLOR */
 }
 
 .newsletter-info legend:first-child {
@@ -175,7 +170,6 @@ input[type="radio"] {
 /* DESKTOP */
 
 @media screen and (min-width: 768px) {
-
   .labels_inputs {
     display: flex;
     flex-direction: row;
@@ -187,30 +181,23 @@ input[type="radio"] {
     padding-bottom: 50px;
   }
 
-.contact-labels {
-  /* border: solid red; */
-  width: 130px;
-  height: 50px;
-  padding-top: 10px;
-  
-}
+  .contact-labels {
+    width: 130px;
+    height: 50px;
+    padding-top: 10px;
+  }
 
-/* .contact-info input {
-  margin-left: 0;
-} */
-  
-.contact-labels,
-.contact-info input {
-  display: inline-block;
-}
+  .contact-labels,
+  .contact-info input {
+    display: inline-block;
+  }
 
-.contact-info input,
-.contact-info select {
-  width: 525px;  /*OR 420%*/
-  margin-left: 25px;
-  
-}
-  
+  .contact-info input,
+  .contact-info select {
+    width: 525px;
+    margin-left: 25px;
+  }
+
   textarea {
     width: 100%;
   }
