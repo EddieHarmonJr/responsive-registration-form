@@ -95,7 +95,8 @@ select {
 
 textarea {
   height: 100px;
-  width: 325px;
+  width: 275px;
+  /* width: 325px; */
   margin-top: 20px;
 }
 
@@ -110,7 +111,8 @@ textarea {
 /* MAKES ALL THE FIELDS IN THE CONTACT INFO SECTION WIDER (EXCEPT ZIP CODE) */
 .contact-info input,
 .contact-info select {
-  width: 325px;
+  width: 275px;
+  /* width: 325px; */
   margin-top: 10px;
 }
 
@@ -140,7 +142,8 @@ button {
   color: white;
   background-color: rgb(8, 104, 88);
   height: 50px;
-  width: 325px;
+  width: 275px;
+  /* width: 325px; */
   margin-top: 20px;
   border-radius: 5px;
   margin-left: 15px;
